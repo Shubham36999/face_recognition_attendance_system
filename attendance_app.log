@@ -1,0 +1,21 @@
+2025-10-08 14:03:58,513 - INFO - Application started successfully.
+2025-10-08 14:04:02,026 - INFO - Starting face capture process.
+2025-10-08 14:04:06,086 - ERROR - Error during capture: window ".!_querystring" was deleted before its visibility changed
+Traceback (most recent call last):
+  File "c:\Users\91755\Downloads\face-recognition-attendance-system\face-attendance\app.py", line 77, in task
+    capture_for_label()
+  File "c:\Users\91755\Downloads\face-recognition-attendance-system\face-attendance\capture.py", line 21, in capture_for_label
+    name = simpledialog.askstring("Input", "Enter the name for this person:")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91755\AppData\Local\Programs\Python\Python312\Lib\tkinter\simpledialog.py", line 411, in askstring
+    d = _QueryString(title, prompt, **kw)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91755\AppData\Local\Programs\Python\Python312\Lib\tkinter\simpledialog.py", line 388, in __init__
+    _QueryDialog.__init__(self, *args, **kw)
+  File "C:\Users\91755\AppData\Local\Programs\Python\Python312\Lib\tkinter\simpledialog.py", line 283, in __init__
+    Dialog.__init__(self, parent, title)
+  File "C:\Users\91755\AppData\Local\Programs\Python\Python312\Lib\tkinter\simpledialog.py", line 143, in __init__
+    self.wait_visibility()
+  File "C:\Users\91755\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 752, in wait_visibility
+    self.tk.call('tkwait', 'visibility', window._w)
+_tkinter.TclError: window ".!_querystring" was deleted before its visibility changed
