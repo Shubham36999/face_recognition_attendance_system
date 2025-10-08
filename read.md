@@ -11,7 +11,7 @@ An intelligent Python-based system that automates attendance marking using **rea
 | **Shubham Kulkarni** | Lead Developer                   |
 | **Aditya Likhitkar** | AI/ML & Face Recognition         |
 | **Gaurav Kosare**    | Data Handling & Attendance Logic |
-| **Laxmikan Bhoskar** | GUI & Capture Module             |
+| **Laxmikant Bhoskar** | GUI & Capture Module             |
 | **Mayank Kene**      | System Integration & Testing     |
 
 **Branch:** IIoT – 5th Semester
@@ -244,4 +244,5 @@ Special thanks to:
 
 ---
 
-**Made with  by Team IIoT — Shubham, Aditya, Gaurav, Laxmikan & Mayank**
+**Made with  by Team IIoT — Shubham, Aditya, Gaurav, Laxmikant & Mayank**
+
